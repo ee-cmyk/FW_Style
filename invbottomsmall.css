@@ -1,0 +1,38 @@
+/* Inventarver�nderungen (CID)*/
+
+p.listitemrow 							{ position: relative; padding: 2px 4px 3px 4px; font-size: 0px;}
+p.listitemrow:hover 						{ padding: 2px 65px 3px 4px; }
+p.listitemrow + p 						{ margin-top: 3px; }
+
+/* inv pics */
+p.listitemrow a[href*="action=activate"]:not(#itemunusedzk a) 	{ display: block; height: 0px; margin: -2px 0px 0px 300px; }
+p.listitemrow:hover a[href*="action=activate"]:before 		{ content: url(https://s.fwtools.de/images/act.png); position: absolute; top: 2px; right: 50px; opacity: 0.80; }
+p.listitemrow:hover a[href*="action=activate"]:hover:before 	{ opacity: 1.00; }
+
+p.listitemrow a[href*="action=watch"] 			{ display: block; height: 0px; margin: -2px 0px 0px 300px; }
+p.listitemrow:hover a[href*="action=watch"]:before 		{ content: url(https://s.fwtools.de/images/icon_view.gif); position: absolute; top: 2px; right: 35px; opacity: 0.80; }
+p.listitemrow:hover a[href*="action=watch"]:hover:before 	{ opacity: 1.00; }
+
+p.listitemrow a[href*="action=manydrop"] 			{ display: block; height: 0px; margin: -2px 0px 0px 300px; }
+p.listitemrow:hover a[href*="action=manydrop"]:before 		{ content: url(https://s.fwtools.de/images/icon_drop.gif); position: absolute; top: 2px; right: 24px; opacity: 0.80; }
+p.listitemrow:hover a[href*="action=manydrop"]:hover:before 	{ opacity: 1.00; }
+
+p.listitemrow a[href*="action=transfer1"] 			{ display: block; height: 0px; margin: -2px 0px 0px 300px; }
+p.listitemrow:hover a[href*="action=transfer1"]:before 		{ content: url(https://s.fwtools.de/images/icon_transfer.gif); position: absolute; top: 2px; right: 10px; opacity: 0.80; }
+p.listitemrow:hover a[href*="action=transfer1"]:hover:before 	{ opacity: 1.00; }
+
+p.listitemrow a[href*="action=manytransfer1"] 			{ display: block; height: 0px; margin: -2px 0px 0px 300px; }
+p.listitemrow:hover a[href*="action=manytransfer1"]:before 		{ content: url(https://s.fwtools.de/images/icon_transfer.gif); position: absolute; top: 2px; right: 10px; opacity: 0.80; }
+p.listitemrow:hover a[href*="action=manytransfer1"]:hover:before 	{ opacity: 1.00; }
+p.listitemrow b 						{ font-size: 11px; }
+.itemamount 							{ font-size: 11px; margin-right: 1px; }
+.itemmagic 							{ font-size: 11px; margin-left: 1px; }
+.itemequipped b 						{ color: #D20000 }
+p.listitemrow .iteminventorypics 				{ max-height: 14px; opacity: 0.80; }
+p.listitemrow .iteminventorypics:hover 				{ opacity: 1.00; }
+
+p.listitemrow span.medium 					{ font-size: 3px; color: transparent; }
+p.listitemrow span.medium a 					{ font-size: 1px;  display: block; height: 0px; margin: -2px 0px 0px 300px; }
+#filterrow 							{ padding: 2px; }
+#filterrow b 							{ font-size: 10px; }
+#filterrow:before 						{ color: #5E5E5E; }
